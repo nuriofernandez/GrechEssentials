@@ -1,0 +1,12 @@
+main: me.nurio.minecraft.essentials.GrechEssentials
+name: GrechEssentials
+version: '1.0'
+api-version: 1.16
+description: Minecraft essentials commands and features plugin
+load: POSTWORLD
+author: Nurio
+website: nurio.me
+prefix: GrechEssentials
+depend: [ GrechConfigPlugin ]
+commands:
+  spawn:
