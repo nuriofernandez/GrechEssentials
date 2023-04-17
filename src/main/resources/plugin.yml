@@ -10,3 +10,5 @@ prefix: GrechEssentials
 depend: [ GrechConfigPlugin ]
 commands:
   spawn:
+  home:
+  sethome:
