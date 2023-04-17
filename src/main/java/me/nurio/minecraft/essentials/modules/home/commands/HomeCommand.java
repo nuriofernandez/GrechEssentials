@@ -30,7 +30,7 @@ public class HomeCommand implements CommandExecutor {
     }
 
     private void teleportAsync(Player player) {
-        if (homeStorage.hasHome(player.getUniqueId())) {
+        if (!homeStorage.hasHome(player.getUniqueId())) {
             player.sendMessage(ChatColor.translateAlternateColorCodes('&',
                     "&cYour home is not set yet! &fYou can set it with: &c/sethome"
             ));
